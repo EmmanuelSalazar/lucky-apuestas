@@ -44,12 +44,6 @@ hr {
     background: #717070;
     color: #717070;
 }
-/* input[type=checkbox] {
-    background-color: #388C1A;
-    color: white;
-    border-radius: 5px;
-    padding: 1rem;
-} */
 .iconSVG {
     width: 50px;
 }
@@ -105,7 +99,33 @@ footer {
         flex-direction: row;
         gap: 1rem;
     }
-    .radioBox {
+    input[type=number] {
+        background-color: #388C1A;
+        border: none;
+        height: 1.5rem;
+        width: fit-content;
+    }
+    input[type=numbes]::selection {
+        border: 1px solid white;
+    }
+    input[type=number]::placeholder {
+        color: white;
+    }
+    select, button {
+        padding: 10px;
+        margin: 10px;
+    }
+    button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+    /* .radioBox {
 
     }
     input[type="radio"] {
@@ -120,6 +140,6 @@ footer {
 
     input[type="radio"]:checked ~ .checbox {
         background: #388C1A;
-    }
+    } */
 
 /* ---------------- */
