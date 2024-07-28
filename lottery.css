@@ -1,0 +1,110 @@
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="email"],
+button {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+input[type="text"]#random-number {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #f8f9fa;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lotteries {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.lottery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    transition: border-color 0.3s, background-color 0.3s;
+    width: 150px;
+    text-align: center;
+}
+
+.lottery.selected {
+    border-color: #007bff;
+    background-color: #e7f0ff;
+}
+
+.lottery:hover {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+}
+
+.lottery-logo {
+    width: 100px;
+    height: auto;
+}
+
+.lottery-name {
+    margin-top: 10px;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+#generate-number {
+    background-color: #007bff;
+}
+
+#submit-button {
+    background-color: #28a745;
+}
+
+#generate-number:hover {
+    background-color: #0056b3;
+}
+
+#submit-button:hover {
+    background-color: #218838;
+}

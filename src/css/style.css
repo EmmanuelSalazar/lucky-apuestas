@@ -125,21 +125,3 @@ footer {
     button:hover {
         background-color: #0056b3;
     }
-    /* .radioBox {
-
-    }
-    input[type="radio"] {
-        display: none;
-    }
-    .checbox {
-        background: #2E2E2E;
-        cursor: pointer;
-        padding: 1rem;
-        border-radius: 5px;
-    }
-
-    input[type="radio"]:checked ~ .checbox {
-        background: #388C1A;
-    } */
-
-/* ---------------- */
