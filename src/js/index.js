@@ -5,3 +5,4 @@ $(document).ready(function() {
     const fechaFormateada = `${mes + 1}/${año}`;
     $('#checkboxLabel1').append(fechaFormateada);
 })
+
