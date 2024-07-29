@@ -12,6 +12,10 @@ a {
     text-decoration: none;
     color: white;
 }
+a:hover {
+    text-decoration:underline;
+    color: #388C1A;
+}
 .col {
     display: flex;
     flex-direction: column;
@@ -39,7 +43,7 @@ main {
     
 }
 hr {
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
     background: #717070;
     color: #717070;
@@ -111,7 +115,10 @@ footer {
         padding: 10px;
         margin: 10px;
     }
-
+    .btn {
+        display: flex;
+        align-items: center;
+    }
     button:hover {
         background-color: #296413;
     }

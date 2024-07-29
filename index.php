@@ -1,26 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/index.css">
-    <link rel="stylesheet" href="src/css/lottery.css">
+    <?php require 'src/estructura/head.php'; ?>
 </head>
 <body>
     <header>
-        <nav class="nav">
-            <div class="navBrand">
-                <h1>Lucky Apuestas</h1>
-            </div>
-            <div class="navList">
-                <ul>
-                    <li><a href="">Contacto</a></li>
-                    <li><a href="">Email</a></li>
-                </ul>
-            </div>
-        </nav>
+        <?php include 'src/estructura/menu.php'; ?>
     </header>
     <main>
         <div class="row">
@@ -35,8 +20,8 @@
                             </div>
                             <div class="col">
                                     <form id="lottery-form">
-                                    <div class="row">
-                                    <h3>Fecha del Juego:</h3>
+                                    <div class="col">
+                                    <h3>Selecciona la fecha del Juego:</h3>
                                         <label for="date"></label>
                                         <input type="date" id="date" name="date" min="2024-07-27" required>
                                     </div>
@@ -49,6 +34,7 @@
                                 <img src="src/public/svg/2number_2_3830.svg" alt="" class="iconSVG">
                             </div>
                             <div class="col">
+                                <h3>Selecciona la lotería de la suerte:</h3>
                                 <div class="lotteries">
                                     <div class="lottery" data-lottery="Medellin">
                                         <img src="medellin-logo.png" alt="Medellin Logo" class="lottery-logo">
@@ -176,9 +162,9 @@
                                 <img src="src/public/svg/3number_3_3078.svg" alt="" class="iconSVG">
                             </div>
                             <div class="col">
-                                <h3>Generador de números aleatorios</h3>
-                                <p>Haz clic en el botón para obtener un número aleatorio</p>
-                                <button class="btn" id="genNum">Generar número</button>
+                                <h3>Generar tu número de la suerte</h3>
+                                <p>Haz clic en el botón para obtener un número para jugar</p>
+                                <button class="btn" id="genNum">Obtener número</button>
                                 <div id="result">
                                     <p id="number">- - - -</p>
                                 </div>
@@ -206,9 +192,7 @@
         </div>
     </main>
     <footer>
-        <div>
-            <p>© 2024 Lucky Apuestas. Todos los derechos reservados.</p>
-        </div>
+       <?php include 'src/estructura/footer.php' ?>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="src/js/index.js"></script>
