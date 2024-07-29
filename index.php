@@ -12,7 +12,6 @@
             <div class="col">
                 <div class="box row">
                     <div class="col">
-                        <h4>Apuesta 1</h4>
                         <hr>
                         <div class="contTable">
                             <div class="col">
@@ -195,6 +194,7 @@
        <?php include 'src/estructura/footer.php' ?>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="src/js/country.js"></script>
     <script src="src/js/index.js"></script>
     <script src="src/js/random.js"></script>
     <script src="src/js/lottery.js"></script>
