@@ -56,7 +56,14 @@ input[type="text"]#random-number {
     border-color: #218838;
     background-color: #28a745;
 }
-
+.lottery-form {
+    display: flex;
+    flex-direction: column;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+}
 .lottery-logo {
     width: 75px;
     height: 75px;
