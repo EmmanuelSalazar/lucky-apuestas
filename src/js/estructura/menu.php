@@ -4,7 +4,7 @@
             </div>
             <div class="navList">
                 <ul>
-                    <li><a href="">¿Quienes somos?</a></li>
+                    <li><a href="foca.php">¿Quienes somos?</a></li>
                     <li><a href="">Contacto</a></li>
                 </ul>
             </div>

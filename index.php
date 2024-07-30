@@ -35,10 +35,6 @@
                             <div class="col">
                                 <h3>Selecciona la lotería de la suerte:</h3>
                                 <div class="lotteries">
-                                    <div class="lottery" data-lottery="Medellin">
-                                        <img src="src/public/IMG/MEDELLIIN.png"Medellin Logo" class="lottery-logo">
-                                        <input type="text" class="lottery-name" value="Medellin" readonly>
-                                    </div>
                                     <div class="lottery" data-lottery="Bogota">
                                         <img src="src/public/IMG/bogota.png" alt="Bogota Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Bogota" readonly>
@@ -71,6 +67,10 @@
                                         <img src="src/public/IMG/pcik 2.png" alt="PICK 2 Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="PICK 2" readonly>
                                     </div>
+                                    <div class="lottery" data-lottery="Medellin">
+                                        <img src="src/public/IMG/Medellin.1.jpg" alt="Medellin.1.jpg"class="lottery-logo">
+                                        <input type="text"  class="lottery-name" value="Medellin" readonly>
+                                    </div>
                                     <div class="lottery" data-lottery="Caribeña noche">
                                         <img src="src/public/IMG/aribeña noche.jpg" alt="Caribeña noche Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Caribeña noche" readonly>
@@ -88,7 +88,7 @@
                                         <input type="text" class="lottery-name" value="Chontico noche" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Paisa 1">
-                                        <img src="src/public/IMG/PAISITA VERDAD 1.png" alt="Paisa 1 Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/PAISITA 1.jpg" alt="Paisa 1 Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Paisa 1" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="EL SAMAN">
@@ -162,8 +162,7 @@
                             </div>
                             <div class="col">
                                 <h3>Generar tu número de la suerte</h3>
-                                <p>Haz clic en el botón para obtener un número para jugar</p>
-                                <button class="btn" id="genNum">Obtener número</button>
+                                <button class="btn" id="genNum">Generar número</button>
                                 <div id="result">
                                     <p id="number">- - - -</p>
                                 </div>
