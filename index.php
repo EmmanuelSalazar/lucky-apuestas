@@ -1,7 +1,9 @@
+<?php require 'src/php/API/mercadoPay.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <?php require 'src/estructura/head.php'; ?>
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
 </head>
 <body>
     <header>
@@ -18,13 +20,13 @@
                                 <img src="src/public/svg/1number_1_3080.svg" alt="" class="iconSVG"> 
                             </div>
                             <div class="col">
-                                    <form id="lottery-form">
+                                    <form id="lottery-form" enctype="multipart/form-data">
                                     <div class="col">
                                     <h3>Selecciona la fecha del Juego:</h3>
                                         <label for="date"></label>
                                         <input type="date" id="date" name="date" min="2024-07-27" required>
                                     </div>
-                                </form>                                
+                                                             
                             </div>
                         </div>
                         <hr>
@@ -36,7 +38,7 @@
                                 <h3>Selecciona la lotería de la suerte:</h3>
                                 <div class="lotteries">
                                     <div class="lottery" data-lottery="Medellin">
-                                        <img src="src/public/IMG/MEDELLIIN.png"Medellin Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/MEDELLIIN.png" alt="Medellin Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Medellin" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Bogota">
@@ -165,7 +167,7 @@
                                 <p>Haz clic en el botón para obtener un número para jugar</p>
                                 <button class="btn" id="genNum">Obtener número</button>
                                 <div id="result">
-                                    <p id="number">- - - -</p>
+                                    <input type="text" name="number" id="number" disabled>
                                 </div>
                             </div>
                         </div>
@@ -176,13 +178,16 @@
                             </div>
                             <div class="col">
                                 <label for="email">Correo Electrónico:</label>
-                                <input type="email" id="email" name="email" required>
-                                <button class="btn">Realizar compra</button>
+                                <input type="email" id="userEmail" name="email" required>
+                                <input type="submit" class="btn">
+                                 </form>  
                             </div>
+
                         </div>
                 </div>
             </div>
             </div>
+            <div id="wallet_container"></div>
             <!-- <div class="col">
                 <div class="box">
                     asdfasdsa
@@ -197,5 +202,6 @@
     <script src="src/js/index.js"></script>
     <script src="src/js/random.js"></script>
     <script src="src/js/lottery.js"></script>
+    <script src="src/js/controller/bill.js"></script>
 </body>
 </html>
