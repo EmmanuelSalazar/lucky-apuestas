@@ -9,11 +9,11 @@
             font-family: Arial, sans-serif;
             color:  #2E2E2E;
             background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
+            margin: 20;
+            padding: 20;
         }
         .container {
-            width: 80%;
+            width: 100%;
             margin: auto;
             overflow: hidden;
         }
@@ -21,9 +21,8 @@
             background: #007bff;
             color: #fff;
             padding: 10px 0;
-            text-align: center;
-        }
-        header h1 {
+            text-align: center
+            header h1 {
             margin: white;
         }
         .content {

@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <?php require 'src/estructura/head.php'; ?>
+<heade>
+ <?php require 'src/estructura/head.php';?>
+    <title>Lucky apuestas</title>
+</header>
+<body>
+    <header>
+    </header>
+
+    <!-- El resto del contenido de la página -->
+</body>
+</html>
 </head>
 <body>
     <header>
@@ -105,7 +114,7 @@
                                     </div>
                                     <div class="lottery" data-lottery="Hula">
                                         <img src="src/public/IMG/huila.jpg" alt="Hula Logo" class="lottery-logo">
-                                        <input type="text" class="lottery-name" value="Hula" readonly>
+                                        <input type="text" class="lottery-name" value="Huila" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Manizales">
                                         <img src="src/public/IMG/manizales. loteria.png" alt="Manizales Logo" class="lottery-logo">
@@ -181,20 +190,12 @@
                         </div>
                 </div>
             </div>
-            </div>
-            <!-- <div class="col">
-                <div class="box">
-                    asdfasdsa
-                </div>
-            </div> -->
         </div>
     </main>
     <footer>
        <?php include 'src/estructura/footer.php' ?>
+    
     </footer>
-    <script src="src/js/country.js"></script>
-    <script src="src/js/index.js"></script>
-    <script src="src/js/random.js"></script>
-    <script src="src/js/lottery.js"></script>
+   
 </body>
 </html>
