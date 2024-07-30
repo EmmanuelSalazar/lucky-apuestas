@@ -1,11 +1,14 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <?php 
 
     $userIP = $_SERVER['REMOTE_ADDR'];
-        if (!isset($userIP)) {
-            echo "$.getJSON('https://api.ip2location.io/?key=91AEF33269E448BF0428500957D3C69C&ip=".$userIP."&format=json    ', function (data) {
-                    var country = data.address.country;
-                    alert('País: ' + data.address.country);
-                });";
+    echo $userIP;
+        if (!empty($userIP)) {
+            echo "<script>$.getJSON('https://api.ip2location.io/?key=91AEF33269E448BF0428500957D3C69C&ip=".$userIP."&format=json', function (data) {
+                    var country = JSON.parse(data);        
+            var country = data.country_code;
+                    alert('País: ' + country);
+                });</script>";
         } else {
             'Ha ocurrido un error';
         }

@@ -36,119 +36,119 @@
                                 <h3>Selecciona la lotería de la suerte:</h3>
                                 <div class="lotteries">
                                     <div class="lottery" data-lottery="Medellin">
-                                        <img src="medellin-logo.png" alt="Medellin Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/MEDELLIIN.png"Medellin Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Medellin" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Bogota">
-                                        <img src="bogota-logo.png" alt="Bogota Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/bogota.png" alt="Bogota Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Bogota" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Valle">
-                                        <img src="valle-logo.png" alt="Valle Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/valle.jpg" alt="Valle Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Valle" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Meta">
-                                        <img src="meta-logo.png" alt="Meta Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/meta loteria.png" alt="Meta Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Meta" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Boyaca">
-                                        <img src="boyaca-logo.png" alt="Boyaca Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/boyaca.jpg" alt="Boyaca Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Boyaca" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Cundimarca">
-                                        <img src="cundimarca-logo.png" alt="Cundimarca Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/cundinamarca.jpg" alt="Cundimarca Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Cundimarca" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="PICK 4">
-                                        <img src="pick4-logo.png" alt="PICK 4 Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/pick 4.png" alt="PICK 4 Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="PICK 4" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="PICK 3">
-                                        <img src="pick3-logo.png" alt="PICK 3 Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/pick 3.png" alt="PICK 3 Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="PICK 3" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="PICK 2">
-                                        <img src="pick2-logo.png" alt="PICK 2 Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/pcik 2.png" alt="PICK 2 Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="PICK 2" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Caribeña noche">
-                                        <img src="caribena-noche-logo.png" alt="Caribeña noche Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/aribeña noche.jpg" alt="Caribeña noche Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Caribeña noche" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Caribeña dia">
-                                        <img src="caribena-dia-logo.png" alt="Caribeña dia Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/caribeña dia.jpg" alt="Caribeña dia Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Caribeña dia" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Cafeterito">
-                                        <img src="cafeterito-logo.png" alt="Cafeterito Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/cafeterito.jpg" alt="Cafeterito Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Cafeterito" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Chontico noche">
-                                        <img src="chontico-noche-logo.png" alt="Chontico noche Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/chontico noche.jpg" alt="Chontico noche Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Chontico noche" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Paisa 1">
-                                        <img src="paisa1-logo.png" alt="Paisa 1 Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/PAISITA VERDAD 1.png" alt="Paisa 1 Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Paisa 1" readonly>
                                     </div>
-                                    <div class="lottery" data-lottery="Paisita 2">
-                                        <img src="paisita2-logo.png" alt="Paisita 2 Logo" class="lottery-logo">
-                                        <input type="text" class="lottery-name" value="Paisita 2" readonly>
+                                    <div class="lottery" data-lottery="EL SAMAN">
+                                        <img src="src/public/IMG/saman.png" alt="EL SAMAN Logo" class="lottery-logo">
+                                        <input type="text" class="lottery-name" value="EL SAMAN" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Paisa noche">
-                                        <img src="paisa-noche-logo.png" alt="Paisa noche Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/PAISITA 1.jpg" alt="Paisa noche Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Paisa noche" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Tolima">
-                                        <img src="tolima-logo.png" alt="Tolima Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/tolima.png" alt="Tolima Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Tolima" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Hula">
-                                        <img src="hula-logo.png" alt="Hula Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/huila.jpg" alt="Hula Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Hula" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Manizales">
-                                        <img src="manizales-logo.png" alt="Manizales Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/manizales. loteria.png" alt="Manizales Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Manizales" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Quindío">
-                                        <img src="quindio-logo.png" alt="Quindío Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/quindio.jpg" alt="Quindío Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Quindío" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Santander">
-                                        <img src="santander-logo.png" alt="Santander Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/santander.jpg" alt="Santander Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Santander" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Risaralda">
-                                        <img src="risaralda-logo.png" alt="Risaralda Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/RISARALDA.png" alt="Risaralda Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Risaralda" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Cauca">
-                                        <img src="cauca-logo.png" alt="Cauca Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/cauca.png" alt="Cauca Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Cauca" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Antioqueñita 1">
-                                        <img src="antioquenita1-logo.png" alt="Antioqueñita 1 Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/ANTIOQUEÑITA 1..png" alt="Antioqueñita 1 Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Antioqueñita 1" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="pijao de oro">
-                                        <img src="pijao-oro-logo.png" alt="pijao de oro Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/pijao.png" alt="pijao de oro Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="pijao de oro" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="culona día">
-                                        <img src="culona-dia-logo.png" alt="culona día Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/CULONA.png" alt="culona día Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="culona día" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="dorado día">
-                                        <img src="dorado-dia-logo.png" alt="dorado día Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/DORADO DIA.jpg" alt="dorado día Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="dorado día" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="dorado noche">
-                                        <img src="dorado-noche-logo.png" alt="dorado noche Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/DORADO NOCHE.jpg" alt="dorado noche Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="dorado noche" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Antioqueñita 2">
-                                        <img src="antioquenita2-logo.png" alt="Antioqueñita 2 Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/antioqueñita 2.png" alt="Antioqueñita 2 Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Antioqueñita 2" readonly>
                                     </div>
                                 </div>
@@ -193,7 +193,6 @@
     <footer>
        <?php include 'src/estructura/footer.php' ?>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="src/js/country.js"></script>
     <script src="src/js/index.js"></script>
     <script src="src/js/random.js"></script>

@@ -27,3 +27,13 @@
     display: flex;
     align-items: center;
 }
+footer {
+    justify-content: space-between;
+}
+footer > .col > a > label {
+    color: white;
+}
+footer > .col > a > label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
