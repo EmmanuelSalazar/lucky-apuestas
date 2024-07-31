@@ -19,4 +19,9 @@
               "statement_descriptor" => "Lucky Apuestas",
               "external_reference" => "CDP001"
             ]);
+          $preference->back_urls = array(
+              "success" => "http://localhost/recibo.php?id=1",
+              "failure" => "http://localhost/recibo.php?id=0", 
+              "pending" => "http://localhost:8080/recibo.php?id=2"
+          );
 ?>

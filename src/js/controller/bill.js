@@ -23,10 +23,9 @@ $(document).ready(function() {
                 contentType: false,
                 success: function(data) {
                     var respuesta = JSON.parse(data);
-                    console.log(respuesta);
                     switch (respuesta.request) {
                         case 1:
-                            window.location.href = 'bill.php?billDir='+userEmail+'';
+                            window.location.href = 'recibo.php?emailDir='+userEmail+'&numDir='+numLottery+'&lotteryDir='+lottery+'&dateDir='+date+'';
                         break;
                         case 0: 
                             console.log("Ha ocurrido un error:"+respuesta.error);
