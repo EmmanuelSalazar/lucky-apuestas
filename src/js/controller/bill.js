@@ -1,34 +1,45 @@
 $(document).ready(function() {
-
     $("#lottery-form").submit(function(event) {
-        event.preventDefault();
+       event.preventDefault();
         var formData = new FormData();
-        var date = $('#date');
+        var date = $('input[type="date"]').val();
             formData.append('date', date);
-        var  lottery = $('.selected').attr('value');
+            console.log(date);
+        var  lottery = $('.selected').children('input[type="text"]').val();
+        console.log(lottery);
             formData.append('lottery', lottery);
-        var numLottery = $("#number");
+        var numLottery = $('#result').children('input[type="text"]').val();
             formData.append('numLottery', numLottery);
-        var userEmail = $('#userEmail');
+        console.log(numLottery);
+        var userEmail = $('.col').children('input[type="email"]').val();
+        console.log(userEmail);
             formData.append('userEmail', userEmail);
 
-        $.ajax({
-            type: "POST",
-            url: 'src/php/API/bill.php',
-            data: formData,
-            contentType: false,
-            processData: false,
-            success: function(data) {
-                var respuesta = JSON.parse(data);
-
-                switch (respuesta.request) {
-                    case 1:
-                        window.location.href = 'bill.php?billDir'+userEmail+'';
-
+            $.ajax({
+                type: "POST",
+                url: 'src/php/API/bill.php',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                    var respuesta = JSON.parse(data);
+                    console.log(respuesta);
+                    switch (respuesta.request) {
+                        case 1:
+                            window.location.href = 'bill.php?billDir='+userEmail+'';
+                        break;
+                        case 0: 
+                            console.log("Ha ocurrido un error:"+respuesta.error);
+                            break;
+                        default: 
+                            console.log('Ha ocurrido un error');
+                        break;
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error("Error en la petición: " + status + " - " + error);
                 }
-
-            }
-        })
+            });
     
 
 

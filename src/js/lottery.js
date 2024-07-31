@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     const lotteries = document.querySelectorAll('.lottery');
     let selectedLottery = '';
