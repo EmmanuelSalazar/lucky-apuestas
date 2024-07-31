@@ -1,3 +1,117 @@
+    <title>apuestas 1</title>
+ 
+ <title>apuestas 1</title>
+ 
+ <title>apuestas 1</title>
+ 
+< lang="es">
+ 
+<body
+ 
+body>
+</body>
+</html>
+</head>
+ 
+ <header>
+    </header>
+
+    <!-- El resto del contenido de la página -->
+ 
+<title></title>
+ 
+   <li>Valor a ganar $1.890.000</li>
+ 
+li>Valor a ganar $1.890.000</li>
+ 
+  <button class="btn"VALOR A GANAR $1.890.000</button>
+ 
+<p5>VALOR A GANAR $1.890.000</p5>
+ 
+selectedLottery = this.getAttribute('data-lottery');
+ 
+        <img src="src/public/IMG/republica dominicana.jpg" alt="Logo" class="logo">
+
+ 
+position;left
+    <img src="src/public/IMG/logo 4.jpg" alt="">
+ 
+body>
+    position;left
+    </body>
+ 
+<body>
+    tex
+    </body>
+ 
+<body>
+    <header>
+        <img src="src/public/IMG/republica dominicana.jpg" alt="Logo" class="logo">
+    </header>
+</body>
+ 
+
+    <!-- El resto del contenido de la página -->
+ 
+/head>
+<body>
+    <header>
+        <?php include 'src/estructura/menu.php'; ?>
+    </header>
+ 
+style>
+       
+    </style>
+ 
+.logo {
+            max-height: 100px; /* Ajusta la altura del logo según sea necesario */
+            position:center;
+        }
+ 
+ header {
+            background-color: black;
+            padding: 1px;
+ 
+<style>
+        header {
+            background-color: black;
+            padding: 1px;
+ 
+rc/public/IMG/logo 4.jpg
+ 
+text-align: center;
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<meta charset="UTF-8">
+ 
+height: 2px;
+ 
+<img src="src/public/IMG/logo 4.jpg" alt="Logo" class="logo">
+ 
+<header>
+        
+    </header>
+ 
+<img src="src/public/IMG/logo 4.jpg" alt="Logo" class="logo">
+ 
+ <h1>Mi Sitio Web</h1>
+ 
+<img src="src/public/IMG/ppppppp.png" alt="">
+ 
+img src="src/public/IMG/logo 4.jpg" alt="logo">
+ 
+ <img src="src/public/IMG/logo 4.jpg" alt="logo">
+ 
+<img src="src/public/IMG/logo 4.jpg" alt="logo">
+ 
+
+ <link reel="logo4.png" type="logo4.jpg." href="src/public/IMG/logo 4.jpg">
+ 
+   <link reel="logo" type="image/png." href="src/public/IMG/logo 4.jpg"
+ 
+<li><a href="">Contacto</a></li>
+ 
     <l/a></li>i><a href="foca.php">¿Quienes somos?<
 
  

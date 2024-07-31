@@ -1,20 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
 <heade>
  <?php require 'src/estructura/head.php';?>
     <title>Lucky apuestas</title>
 </header>
 <body>
     <header>
-    </header>
-
-    <!-- El resto del contenido de la página -->
-</body>
-</html>
-</head>
-<body>
-    <header>
         <?php include 'src/estructura/menu.php'; ?>
+        <div class="banner-carousel">
+          <img src="src/public/IMG/republica dominicana.jpg" alt="Banner 2"><img src="src/public/IMG/CUANTO CUESTA HACER REALIDAD TUS SUEÑOS.png" alt=""></div> 
+ 
+       </div>
     </header>
     <main>
         <div class="row">
@@ -27,7 +22,9 @@
                                 <img src="src/public/svg/1number_1_3080.svg" alt="" class="iconSVG"> 
                             </div>
                             <div class="col">
+                           
                                     <form id="lottery-form">
+                                       
                                     <div class="col">
                                     <h3>Selecciona la fecha del Juego:</h3>
                                         <label for="date"></label>
@@ -183,9 +180,11 @@
                                 <img src="src/public/svg/4number_4_3076.svg" alt="" class="iconSVG">
                             </div>
                             <div class="col">
-                                <label for="email">Correo Electrónico:</label>
+                                <label for="email">Correo Electrónico para enviar resultados:</label>
                                 <input type="email" id="email" name="email" required>
+                                <li>Valor a ganar $1.890.000</li>
                                 <button class="btn">Realizar compra</button>
+                                 
                             </div>
                         </div>
                 </div>

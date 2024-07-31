@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('lottery-form').addEventListener('submit', function(e) {
         if (!selectedLottery) {
             alert('Por favor, selecciona una lotería.');
+            this.classList.add('selected');
             e.preventDefault();
         }
     });

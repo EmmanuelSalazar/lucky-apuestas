@@ -1,12 +1,13 @@
      /* Estilo opcional para el carrusel */
      .banner-carousel {
-        width: 20%;
+        width: 40%;
         max-width: 20px;
         margin: 0 auto;
-        position: left;
+        position: right;
     }
 
     .banner-carousel img {
-        width: 20%;
+        width: 40%;
         display: block;
+        position:  re;
     }
