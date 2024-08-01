@@ -6,7 +6,7 @@ form {
 label {
     margin-top: 20px;
     font-weight: bold;
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 97%);
 }
 
 input[type="date"],
@@ -15,7 +15,7 @@ input[type="email"],
 button {
     padding:90;
     border-radius: 5px;
-    border: 0px solid #eee8e8;
+    border: 0px solid #000000;
     height: 2rem;
     text-align: center;
 }

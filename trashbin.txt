@@ -1,3 +1,627 @@
+function selectItem(element) {
+                // Deselecciona todos los elementos
+                var items = document.querySelectorAll('lottery-logo');
+                items.forEach(function(item) {
+                    item.classList.remove('selected');
+                });
+    
+                // Selecciona el elemento clicado
+                element.classList.add('selected');
+        });
+ 
+        
+            // Selecciona el elemento clicado
+ 
+function selectItem(element) {
+            // Deselecciona todos los elementos
+            var items = document.querySelectorAll('.lottery-item');
+            items.forEach(function(item) {
+                item.classList.remove('selected');
+            });
+
+ 
+<script>
+        function selectItem(element) {
+            // Deselecciona todos los elementos
+            var items = document.querySelectorAll('.lottery-item');
+            items.forEach(function(item) {
+                item.classList.remove('selected');
+            });
+
+            // Selecciona el elemento clicado
+            element.classList.add('selected');
+        }
+    </script>
+</body>
+</html>
+ 
+function selectItem(element) {
+            // Deselecciona todos los elementos
+            var items = document.querySelectorAll('.lottery-item');
+            items.forEach(function(item) {
+                item.classList.remove('selected');
+            });
+
+ 
+Este es un mensaje de aviso en color oro para captar tu atención.
+ 
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto en Movimiento</title>
+    <style>
+        .marquee-text {
+            position: fixed;
+            bottom: 0; /* O ajusta según la posición deseada desde el borde inferior */
+            left: 0;
+            width: 100%;
+            background-color: black;
+            color: yellow;
+            white-space: nowrap;
+            overflow: hidden;
+            padding: 10px;
+            font-size: 24px;
+            animation: marquee 10s linear infinite;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee-text">
+        ¡Este es un texto en movimiento de color amarillo que se mantiene fijo al hacer scroll!
+    </div>
+ 
+<head>
+ 
+ <style>
+        .marquee-container {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: yellow;
+            overflow: hidden;
+        }
+        .marquee-text {
+            display: inline-block;
+            white-space: nowrap;
+            padding: 10px;
+            font-size: 24px;
+            animation: marquee 10s linear infinite;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee-container">
+        <div class="marquee-text">¡Valor a ganar $1.890.000!</div>
+    </div>
+</body>
+</html>
+ 
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto en Movimiento</title>
+ 
+¡Este es un texto en movimiento de color amarillo
+ 
+</head>
+<body>
+    <div class="moving-text">¡Este es un texto en movimiento!</div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+ 
+body {
+            margin: 0;
+            overflow: hidden; /* Evita barras de desplazamiento */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0; /* Color de fondo */
+        }
+        /* Estilo del contenedor del texto */
+        .moving-text {
+            position: relative;
+            white-space: nowrap; /* Evita el ajuste del texto */
+            font-size: 24px;
+            font-weight: bold;
+            color: #333; /* Color del texto */
+            animation: moveText 10s linear infinite;
+        }
+        /* Animación del texto */
+        @keyframes moveText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+ 
+     <p>Valor a ganar $1.890.000</p>
+                                 
+ 
+<p></p>Valor a ganar $1.890.000</p>
+ 
+<button class="btn" id="genNum">Generar número</button>
+                                <div id="result">
+                                    <p id="number">- - - -</p>
+                                </div>
+                                .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        #result {
+            font-size: 24px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+ 
+ <!-- El resto del contenido de la página -->
+    <h1>Bienvenido a Mi Página</h1>
+    <p>Contenido de la página...</p>
+ 
+ <!-- Banner en el inicio de la página -->
+    <div class="banner">
+        <img src="ruta-del-banner.jpg" alt="Banner de la Página">
+    </div>
+ 
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con Banner</title>
+    <style>
+        /* Estilos para el banner */
+        .banner {
+            width: 100%; /* Ancho completo de la ventana */
+            text-align: center; /* Centra el contenido del banner */
+            margin-bottom: 20px; /* Espacio debajo del banner */
+        }
+        .banner img {
+            max-width: 100%; /* Ajusta el ancho de la imagen al ancho del contenedor */
+            height: auto; /* Mantiene la proporción original de la imagen */
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner en el inicio de la página -->
+    <div class="banner">
+        <img src="src/public/IMG/republica dominicana.jpg" alt="Banner de la Página">
+    </div>
+ 
+<!-- El resto del contenido de la página -->
+    <h1>Bienvenido a Mi Página</h1>
+    <p>Contenido de la página...</p>
+ 
+
+        }
+    </style>
+ 
+.banner {
+            width: 100%; /* Ancho completo de la ventana */
+            text-align: center; /* Centra el contenido del banner */
+            margin-bottom: 20px; /* Espacio debajo del banner */
+        }
+        .banner img {
+            max-width: 100%; /* Ajusta el ancho de la imagen al ancho del contenedor */
+            height: auto; /* Mantiene la proporción original de la imagen */
+ 
+<span>Lucky Apuestas</span>
+ 
+ <title>Lucky Apuestas</title>
+ 
+ <img src="src/public/IMG/logo 4.jpg" alt="logo 4.jpg" style="width: 100px; height: 0; position: center;">
+
+ 
+ruta-del-logo.png
+ 
+<div class="navBrand">
+             <H1>Lucky Apuestas</H1>   
+            </div>
+ 
+<title>Lucky apuestas</title>
+ 
+ <p1>apuestas 1</p1
+ 
+    <img src="" alt="">
+ 
+ <div class="banner-carousel">
+ 
+<img src="src/public/IMG/CUANTO CUESTA HACER REALIDAD TUS SUEÑOS.png" alt=""></div> 
+ 
+<img src="src/public/IMG/republica dominicana.jpg" alt="Banner 2">
+ 
+<div class=".banner"  
+ 
+<div class=".banner"  
+ 
+<div class="banner-carousel">
+          <img src="src/public/IMG/republica dominicana.jpg" alt="Banner 2"></div> 
+       </div>
+ 
+
+    <div class="banner-carousel">
+       <div><img src="src/public/IMG/republica dominicana.jpg" alt="Banner 1"></div>
+       <link rel="stylesheet" href="src/css/carrusel.css">
+    </div>
+
+ 
+    /* Estilo opcional para el carrusel */
+     .banner-carousel {
+        width: 800%;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+ 
+<img src="src/public/IMG/CUANTO CUESTA HACER REALIDAD TUS SUEÑOS.png" alt="">
+ 
+       <div><img src="src/public/IMG/CUANTO CUESTA HACER REALIDAD TUS SUEÑOS.png" alt="Banner 2"></div> 
+
+ 
+ position: lefs;
+ 
+</div>
+ 
+<div class="banner-carousel">
+          <img src="src/public/IMG/republica dominicana.jpg" alt="Banner 2"><img src="src/public/IMG/CUANTO CUESTA HACER REALIDAD TUS SUEÑOS.png" alt=""></div> 
+ 
+ 
+ <li><a href="index.php">Inicio</a></li>
+ 
+ <p>correo: negocioslucky84@gmail.com</p>
+ 
+  </div>
+ 
+   <p>Ubicación:</p>
+ 
+            <img src="src/public/IMG/ubicacion pa.jpg" alt="footer" class="footer-image">
+
+ 
+            <img src="src/public/IMG/ubicacion pa.jpg" alt="footer" class="footer-image">
+
+ 
+<!-- Otros contenidos de la página -->
+        <div class="footer-content">
+ 
+</footer>
+ 
+<footer class="footer">
+ 
+<div class="col">
+          <a href="policy.php"><label for="">Politica de privacidad</label></a>
+          <a href="Terminos.php"><label for="">Terminos y condiciones</label></a>
+          <a href ="gestion.php"><label for="">Gestion de calidad</label></a>
+         <p>correo: negocioslucky84@gmail.com</p>
+     </div>
+ 
+<link rel="index.php"  href="index.php">
+ 
+ <h1>Información de contacto:</h1>
+        Los datos suministrados serán almacenados
+        de manera segura en las bases de datos de ARTUJURIDICA. 
+        En caso de requerir consulta, ejercer los derechos anteriormente mencionados,
+        realizar algún cambio a los datos consignados o solicitar que se supriman sus datos de las
+        bases de datos, o si desea contactarnos para comprender más sobre esta Política o desea contactarnos 
+        con respecto a cualquier asunto relacionado con los derechos individuales 
+        y su Información personal, puede elevar solicitud o contactar al correo electrónico negociosstream84
+        </p>
+ 
+<p>
+            <h1>Seguridad de la Información:</h1>
+            Protegemos la información que usted proporciona
+             en servidores informáticos en un entorno controlado y seguro,
+              protegido del acceso, uso o divulgación no autorizados.
+               Mantenemos salvaguardias administrativas, técnicas y físicas razonables para proteger
+                contra el acceso no autorizado, el uso, la modificación y la divulgación de datos personales 
+                bajo su control y custodia. Sin embargo, no se puede garantizar ninguna transmisión de datos
+                 a través de Internet o red inalámbrica.
+        </p>
+        <p>
+            <h1>Divulgación legal:</h1>
+            Divulgaremos cualquier información que recopilemos, usemos o
+            recibamos siempre y cuando sea exigido o autorizado por la ley, o sea requerido 
+            por autoridad competente en los términos indicados de la ley 1581 de 2012
+            y en su decreto reglamentario, o en aquellas normas que complementen, sustituyan
+            o reglamenten; y cuando creamos de buena fe que la divulgación 
+            es necesaria para proteger nuestros derechos, proteger su seguridad o 
+            la seguridad de otros, investigar fraudes o responder a un requerimiento judicial.
+        </p>
+        <p>
+ 
+Nuestro sitio web puede contener enlaces
+        a otros sitios web que no son de nuestra propiedad
+        ni están controlados por nosotros. Tenga en cuenta que no somos responsables
+        de dichos sitios web ni de las prácticas de privacidad de terceros. Le recomendamos
+        que esté atento cuando abandone nuestro sitio web y lea las declaraciones de privacidad 
+          de cada sitio web que pueda recopilar información personal.
+        </p>
+ 
+/ul>
+ 
+li>.</li>
+            <li>Ser informado, previa solicitud, respecto del uso que le ha dado a sus datos personales.</li>
+            <li>Presentar ante la Superintendencia de Industria y Comercio quejas por infracciones
+                a lo dispuesto en la ley 1581 de 2012 y las demás normas que la 
+                modifiquen, adicionen o complementen.</li>
+            <li>Revocar la autorización y/o solicitar la supresión 
+                del dato cuando en el tratamiento no se respeten 
+                los principios, derechos y garantías constitucionales y legales.</li>
+            <li>Acceder en forma gratuita a sus datos personales que hayan sido objeto de Tratamiento.</li>
+ 
+Solicitar prueba de la autorización otorgada, salvo cuando expresamente
+                 se exceptúe como requisito para el tratamiento, 
+                de conformidad con lo previsto en el artículo 10 de la ley 1581 de 2012
+ 
+Conocer, actualizar y rectificar sus datos personales. Este derecho se podrá ejercer, entre otros, frente a datos parciales,
+                inexactos, incompletos, fraccionados, que induzcan a error, 
+                o aquellos cuyo tratamiento esté expresamente prohibido o no haya sido autorizado.
+ 
+Entiende sus derechos como titular de los datos personales, de conformidad con lo regulado 
+            por la ley 1581 de 2012 y su decreto reglamentario 1377 de 2013, en especial, los siguientes:
+ 
+<strong>Sus derechos:</strong><br>
+ 
+Puede visitar el sitio web sin decirnos quién es ni revelar ninguna 
+            información mediante la cual alguien pueda identificarlo 
+            como un individuo específico e identificable. Sin embargo,
+             si desea utilizar algunas de las funciones del sitio web, o desea
+            recibir nuestro boletín informativo o proporcionar otros detalles
+             completando un formulario, puede proporcionarnos datos personales, 
+            como su correo electrónico, nombre, apellido, ciudad de residencia, 
+            organización, número de teléfono. Puede optar por no proporcionarnos 
+            sus datos personales, pero entonces es posible que no pueda aprovechar 
+            algunas de las funciones del sitio web. Por ejemplo, no podrá recibir 
+            nuestro boletín ni contactarnos directamente desde el sitio web. 
+            Los usuarios que no estén seguros de qué información es obligatoria pueden 
+            contactarnos a través de negociosstream84@gmail.com
+ 
+Nuestra principal prioridad es la seguridad de los datos de los clientes y, como tal,
+            podemos procesar solo una cantidad mínima de datos de los usuarios, 
+            solo la cantidad que sea absolutamente necesaria para mantener el sitio web.
+            La información recopilada automáticamente se utiliza únicamente para identificar posibles
+            casos de abuso y establecer información estadística sobre el uso del sitio web.
+            Esta información estadística no se agrega de tal manera que pueda identificar 
+            a ningún usuario particular del sistema.
+ 
+Contactarlo para agendar citas, actividades, eventos o similares.
+            Enviarle cotizaciones, portafolios de servicios, propuestas comerciales, piezas publicitarias y similares.
+            Prestarle los servicios requeridos que haya solicitado o contratado.
+ 
+</li>
+ 
+Contactarlo para agendar citas, actividades, eventos o similares.
+            Enviarle cotizaciones, portafolios de servicios, propuestas comerciales, piezas publicitarias y similares.
+            Prestarle los servicios requeridos que haya solicitado o contratado.
+ 
+Contactarlo para agendar citas, actividades, eventos o similares.
+            Enviarle cotizaciones, portafolios de servicios, propuestas comerciales, piezas publicitarias y similares.
+            Prestarle los servicios requeridos que haya solicitado o contratado.
+ 
+>
+ 
+ <h1>¿Por qué tratamos sus datos?</h1>
+ 
+Cuando visita Lucky, recopilamos automáticamente cierta información sobre su dispositivo,
+        incluida información sobre su navegador web, dirección IP, zona horaria
+        y algunas de las cookies instaladas en su dispositivo. Además, mientras 
+       navega por el Sitio, recopilamos información sobre las páginas web individuales o los productos que ve, 
+       qué sitios web o términos de búsqueda lo remitieron al Sitio y cómo interactúa con el Sitio.
+        Nos referimos a esta información recopilada automáticamente como "Información del dispositivo". 
+        Además, podemos recopilar los datos personales que usted nos proporciona (incluidos, entre otros, 
+        nombre, apellido, dirección, información de pago, etc.) durante el registro para poder cumplir
+        con el acuerdo. Al enviar un mensaje, suscribirse, agendarse o similar, 
+        está autorizando a ARTUJURIDICA, de manera libre, expresa, inequívoca, informada, voluntaria,
+        al igual que a las personas naturales o jurídicas que ella autorice, a realizar el tratamiento de 
+        sus datos personales, tales como la recolección, almacenamiento, uso, transmisión, transferencia, 
+        circulación o supresión de la información personal que comparte. En todo caso, usted declara que 
+        conoce que los datos personales que comparte, en especial, el nombre, número de identificación, los correos electrónicos, 
+      direcciones y números de teléfono, se usarán con la finalidad de:
+ 
+ procesamos la información recopilada por
+         Lucky Apuestas, quien es propietaria del Sitio web, 
+          y también proporciona las razones por las que debemos recopilar ciertos datos personales sobre usted.
+           Por lo tanto, debes leer esta Política de Privacidad antes de utilizar el Sitio web. 
+          Cuidamos tus datos personales y nos comprometemos a garantizar su confidencialidad y seguridad.
+ 
+y tratamiento de datos
+ 
+<p>© 2024 Lucky Apuestas. Todos los derechos reservados.</p>
+ 
+ <p>© 2024 Lucky Apuestas. Todos los derechos reservados.</p>
+ 
+<a href="policy.php"><label for="">Politica de privacidad y tratamiento de datos</label></a>
+          <a href="Terminos.php"><label for="">Terminos y condiciones</label></a>
+ 
+<title>Contactos</title>
+ 
+</body>
+</html>
+ 
+<div class="col">
+    <p>© 2024 Lucky Apuestas. Todos los derechos reservados.</p>
+</div>
+ 
+<div class="col">
+    <p>© 2024 Lucky Apuestas. Todos los derechos reservados.</p>
+</div>
+ 
+Ubicación de la Página
+ 
+ruta-de-la-imagen-de-la-ubicacion.jpg
+ 
+</li>
+ 
+</li>
+ 
+DEFINICIONES
+ 
+negociostream84@gmail..com
+ 
+</p>
+ 
+</li>
+ 
+</li>
+ 
+<li>Enviarle cotizaciones, portafolios de servicios, propuestas comerciales, piezas publicitarias y similares.</li>
+        <li>Prestarle los servicios requeridos que haya solicitado o contratado.</li>
+        </ul>
+        <h1>¿Por qué tratamos sus datos?</h1>
+            Nuestra principal prioridad es la seguridad de los datos de los clientes y, como tal,
+            podemos procesar solo una cantidad mínima de datos de los usuarios, 
+            solo la cantidad que sea absolutamente necesaria para mantener el sitio web.
+            La información recopilada automáticamente se utiliza únicamente para identificar posibles
+            casos de abuso y establecer información estadística sobre el uso del sitio web.
+            Esta información estadística no se agrega de tal manera que pueda identificar 
+            a ningún usuario particular del sistema.
+        <p>
+            Puede visitar el sitio web sin decirnos quién es ni revelar ninguna 
+            información mediante la cual alguien pueda identificarlo 
+            como un individuo específico e identificable. Sin embargo,
+             si desea utilizar algunas de las funciones del sitio web, o desea
+            recibir nuestro boletín informativo o proporcionar otros detalles
+             completando un formulario, puede proporcionarnos datos personales, 
+            como su correo electrónico, nombre, apellido, ciudad de residencia, 
+            organización, número de teléfono. Puede optar por no proporcionarnos 
+            sus datos personales, pero entonces es posible que no pueda aprovechar 
+            algunas de las funciones del sitio web. Por ejemplo, no podrá recibir 
+            nuestro boletín ni contactarnos directamente desde el sitio web. 
+            Los usuarios que no estén seguros
+            de qué información es obligatoria pueden contactarnos a través de negociosstream84@gmail.com
+        </p>
+        <p>
+            <strong>Sus derechos:</strong><br>
+            Entiende sus derechos como titular de los datos personales, de conformidad con lo regulado 
+            por la ley 1581 de 2012 y su decreto reglamentario 1377 de 2013, en especial, los siguientes:
+        </p>
+        <ul>
+            <li>Conocer, actualizar y rectificar sus datos personales. Este derecho se podrá ejercer, entre otros, frente a datos parciales,
+                inexactos, incompletos, fraccionados, que induzcan a error, 
+                o aquellos cuyo tratamiento esté expresamente prohibido o no haya sido autorizado.</li>
+            <li>Solicitar prueba de la autorización otorgada, salvo cuando expresamente
+                 se exceptúe como requisito para el tratamiento, 
+                de conformidad con lo previsto en el artículo 10 de la ley 1581 de 2012.</li>
+            <li>Ser informado, previa solicitud, respecto del uso que le ha dado a sus datos personales.</li>
+            <li>Presentar ante la Superintendencia de Industria y Comercio quejas por infracciones
+                a lo dispuesto en la ley 1581 de 2012 y las demás normas que la 
+                modifiquen, adicionen o complementen.</li>
+            <li>Revocar la autorización y/o solicitar la supresión 
+                del dato cuando en el tratamiento no se respeten 
+                los principios, derechos y garantías constitucionales y legales.</li>
+            <li>Acceder en forma gratuita a sus datos personales que hayan sido objeto de Tratamiento.</li>
+        </ul>
+        <p>
+
+        <h1>Enlace a otros sitios web:</h1>
+        Nuestro sitio web puede contener enlaces
+        a otros sitios web que no son de nuestra propiedad
+        ni están controlados por nosotros. Tenga en cuenta que no somos responsables
+        de dichos sitios web ni de las prácticas de privacidad de terceros. Le recomendamos
+        que esté atento cuando abandone nuestro sitio web y lea las declaraciones de privacidad 
+          de cada sitio web que pueda recopilar información personal.
+        </p>
+        <p>
+            <h1>Seguridad de la Información:</h1>
+            Protegemos la información que usted proporciona
+             en servidores informáticos en un entorno controlado y seguro,
+              protegido del acceso, uso o divulgación no autorizados.
+               Mantenemos salvaguardias administrativas, técnicas y físicas razonables para proteger
+                contra el acceso no autorizado, el uso, la modificación y la divulgación de datos personales 
+                bajo su control y custodia. Sin embargo, no se puede garantizar ninguna transmisión de datos
+                 a través de Internet o red inalámbrica.
+        </p>
+        <p>
+            <h1>Divulgación legal:</h1>
+            Divulgaremos cualquier información que recopilemos, usemos o
+            recibamos siempre y cuando sea exigido o autorizado por la ley, o sea requerido 
+            por autoridad competente en los términos indicados de la ley 1581 de 2012
+            y en su decreto reglamentario, o en aquellas normas que complementen, sustituyan
+            o reglamenten; y cuando creamos de buena fe que la divulgación 
+            es necesaria para proteger nuestros derechos, proteger su seguridad o 
+            la seguridad de otros, investigar fraudes o responder a un requerimiento judicial.
+        </p>
+        <p>
+
+        <h1>Información de contacto:</h1>
+        Los datos suministrados serán almacenados
+        de manera segura en las bases de datos de ARTUJURIDICA. 
+        En caso de requerir consulta, ejercer los derechos anteriormente mencionados,
+        realizar algún cambio a los datos consignados o solicitar que se supriman sus datos de las
+        bases de datos, o si desea contactarnos para comprender más sobre esta Política o desea contactarnos 
+        con respecto a cualquier asunto relacionado con los derechos individuales 
+        y su Información personal, puede elevar solicitud o contactar al correo electrónico negociosstream84
+        </p>
+    </div>
+
+ 
+ontactarlo para agendar citas, actividades, eventos o similare
+ 
+Cuando visita Lucky, recopilamos automáticamente cierta información sobre su dispositivo,
+        incluida información sobre su navegador web, dirección IP, zona horaria
+        y algunas de las cookies instaladas en su dispositivo. Además, mientras 
+       navega por el Sitio, recopilamos información sobre las páginas web individuales o los productos que ve, 
+       qué sitios web o términos de búsqueda lo remitieron al Sitio y cómo interactúa con el Sitio.
+        Nos referimos a esta información recopilada automáticamente como "Información del dispositivo". 
+        Además, podemos recopilar los datos personales que usted nos proporciona (incluidos, entre otros, 
+        nombre, apellido, dirección, información de pago, etc.) durante el registro para poder cumplir
+        con el acuerdo. Al enviar un mensaje, suscribirse, agendarse o similar, 
+        está autorizando a ARTUJURIDICA, de manera libre, expresa, inequívoca, informada, voluntaria,
+        al igual que a las personas naturales o jurídicas que ella autorice, a realizar el tratamiento de 
+        sus datos personales, tales como la recolección, almacenamiento, uso, transmisión, transferencia, 
+        circulación o supresión de la información personal que comparte. En todo caso, usted declara que 
+        conoce que los datos personales que comparte, en especial, el nombre, número de identificación, los correos electrónicos, 
+      direcciones y números de teléfono, se usarán con la finalidad de:
+ 
+emos adoptado esta Política de Privacidad, que determina cómo 
+         procesamos la información recopilada por
+         Lucky Apuestas, quien es propietaria del Sitio web, 
+          y también proporciona las razones por las que debemos recopilar ciertos datos personales sobre usted.
+           Por lo tanto, debes leer esta Política de Privacidad antes de utilizar el Sitio web. 
+          Cuidamos tus datos personales y nos comprometemos a garantizar su confidencialidad y seguridad.
+ 
+src/public/IMG/CUANTO CUESTA HACER REALIDAD TUS SUEÑOS.png
+ 
+ position:  relative;
+    }
+ 
+<a href="baner.php">
+ 
+¿Quienes somos?</a>
+ 
+<div><img src="src/public/IMG/CUANTO CUESTA HACER REALIDAD TUS SUEÑOS.png" alt="Banner 2"></div>
+ 
+  .banner-carousel {
+        width: 40%;
+        max-width: 2000px;
+        margin: 0 auto;
+        position: center;
+    }
+
+    .banner-carousel img {
+        width: 40%;
+        display: block;
+        position:center;
+    }
+ 
+<div><img src="src/public/IMG/republica dominicana.jpg" alt="Banner 1"></div>
+ 
+    <div><img src="src/public/IMG/republica dominicana.jpg" alt="Banner 1"></div>
+
+ 
+ <div><img src="src/public/IMG/republica dominicana.jpg" alt="Banner 1"></div>
+ 
+<div><img src="src/public/IMG/republica dominicana.jpg" alt="Banner 1"></div>
+       <div><img src="src/public/IMG/CUANTO CUESTA HACER REALIDAD TUS SUEÑOS.png" alt="Banner 2"></div>
+ 
     <title>apuestas 1</title>
  
  <title>apuestas 1</title>

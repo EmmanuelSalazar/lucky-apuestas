@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <heade>
  <?php require 'src/estructura/head.php';?>
-    <title>Lucky apuestas</title>
+    <style>
+        .logo-text {
+            display: flex;
+            align-items: center;
+        }
+        .logo-text img {
+            width: 100px; /* Ajusta el tamaño del logo según lo necesites */
+            height: auto; /* Mantiene la proporción original */
+            margin-right: -29px; /* Espacio entre el logo y el texto */
+        }
+    </style>
+</body>
+</html>
+</head>
+<body>
+   
+</head>
+<body>
+    <div class="logo-text">
+        <img src="src/public/IMG/logo 4.jpg" alt="Logo de Lucky Apuestas">
 </header>
 <body>
     <header>
         <?php include 'src/estructura/menu.php'; ?>
-        <div class="banner-carousel">
-          <img src="src/public/IMG/republica dominicana.jpg" alt="Banner 2"><img src="src/public/IMG/CUANTO CUESTA HACER REALIDAD TUS SUEÑOS.png" alt=""></div> 
- 
        </div>
-    </header>
+    </header><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con Banner</title>
+    <style>
+        /* Estilos para el banner */
+        .banner {
+            width: 100%; /* Ancho completo de la ventana */
+            text-align: center; /* Centra el contenido del banner */
+            margin-bottom: -2px; /* Espacio debajo del banner */
+        }
+        .banner img {
+            max-width: 200%; /* Ajusta el ancho de la imagen al ancho del contenedor */
+            height: auto; /* Mantiene la proporción original de la imagen */
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner en el inicio de la página -->
+    <div class="banner">
+        <img src="src/public/IMG/CUANTO CUESTA HACER REALIDAD TUS SUEÑOS (1).png" alt="Banner de la Página">
+    </div>
+</body>
+</html>
     <main>
         <div class="row">
             <div class="col">
@@ -22,9 +60,8 @@
                                 <img src="src/public/svg/1number_1_3080.svg" alt="" class="iconSVG"> 
                             </div>
                             <div class="col">
-                           
+                            <p1>apuestas 1</p1>
                                     <form id="lottery-form">
-                                       
                                     <div class="col">
                                     <h3>Selecciona la fecha del Juego:</h3>
                                         <label for="date"></label>
@@ -157,6 +194,20 @@
                                         <img src="src/public/IMG/antioqueñita 2.png" alt="Antioqueñita 2 Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Antioqueñita 2" readonly>
                                     </div>
+                                    <script>
+        function selectItem(element) {
+            // Deselecciona todos los elementos
+            var items = document.querySelectorAll('lottery-logo');
+            items.forEach(function(item) {
+                item.classList.remove('selected');
+            });
+
+            // Selecciona el elemento clicado
+            element.classList.add('selected');
+        }
+    </script>
+</body>
+</html>
                                 </div>
                             </div>
                         </div>
@@ -168,10 +219,26 @@
                             </div>
                             <div class="col">
                                 <h3>Generar tu número de la suerte</h3>
-                                <button class="btn" id="genNum">Generar número</button>
-                                <div id="result">
-                                    <p id="number">- - - -</p>
-                                </div>
+                                
+                         </style>
+                         </head>
+<body>
+    <div class="container">
+        <button onclick="generateNumber()">Generar Número</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function generateNumber() {
+            // Genera un número aleatorio entre 1 y 9999
+            const number = Math.floor(Math.random() * 9999) + 1;
+            // Muestra el número en el elemento con id="result"
+            document.getElementById('result').textContent = number;
+        }
+    </script>
+</body>
+</html>
+
                             </div>
                         </div>
                         <hr>
@@ -182,14 +249,39 @@
                             <div class="col">
                                 <label for="email">Correo Electrónico para enviar resultados:</label>
                                 <input type="email" id="email" name="email" required>
-                                <li>Valor a ganar $1.890.000</li>
                                 <button class="btn">Realizar compra</button>
-                                 
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </div>
+                                <head>
+                                <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso Color Oro</title>
+    <style>
+        .aviso {
+            background-color: #FFD700; /* Color dorado */
+            color: #000; /* Texto en negro para buen contraste */
+            border: 2px solid #DAA520; /* Borde en un tono más oscuro de dorado */
+            border-radius: 5px; /* Bordes redondeados */
+            padding: 15px;
+            font-size: 18px;
+            text-align: center;
+            width: 80%; /* Ajusta el ancho según tu necesidad */
+            margin: 20px auto; /* Centra el aviso horizontalmente */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto de profundidad */
+        }
+    </style>
+</head>
+<body>
+    <div class="aviso">
+        <strong>PREMIO A GANAR: $2.000.000</strong> 
+    </div>
+</body>
+</html>
+</body>
+</html>
+            
+          
+                        
+   
+
     </main>
     <footer>
        <?php include 'src/estructura/footer.php' ?>

@@ -111,7 +111,7 @@ footer {
         border: 1px solid white;
     }
     input[type=number]::placeholder {
-        color: white;
+        color: rgb(204, 73, 73);
     }
     select, button {
         padding: 10px;

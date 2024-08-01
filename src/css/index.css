@@ -31,7 +31,7 @@ footer {
     justify-content: space-between;
 }
 footer > .col > a > label {
-    color: white;
+    color: rgb(247, 246, 246);
 }
 footer > .col > a > label:hover {
     text-decoration: underline;
