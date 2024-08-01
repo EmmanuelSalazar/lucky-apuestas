@@ -4,17 +4,12 @@ $(document).ready(function() {
         var formData = new FormData();
         var date = $('input[type="date"]').val();
             formData.append('date', date);
-            console.log(date);
         var  lottery = $('.selected').children('input[type="text"]').val();
-        console.log(lottery);
             formData.append('lottery', lottery);
         var numLottery = $('#result').children('input[type="text"]').val();
             formData.append('numLottery', numLottery);
-        console.log(numLottery);
         var userEmail = $('.col').children('input[type="email"]').val();
-        console.log(userEmail);
             formData.append('userEmail', userEmail);
-
             $.ajax({
                 type: "POST",
                 url: 'src/php/API/bill.php',
@@ -39,8 +34,5 @@ $(document).ready(function() {
                     console.error("Error en la petición: " + status + " - " + error);
                 }
             });
-    
-
-
     });
 });
