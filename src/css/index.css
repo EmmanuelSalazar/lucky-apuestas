@@ -37,3 +37,11 @@ footer > .col > a > label:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+#numLottery {
+    background-color: white;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}

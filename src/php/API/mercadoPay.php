@@ -4,7 +4,7 @@
   require 'vendor/autoload.php';
   
   
-          MercadoPagoConfig::setAccessToken('TEST-1842608737330865-033116-eb08df07ba5de636a918bdb3b65f7c02-1749491277');
+          MercadoPagoConfig::setAccessToken('APP_USR-1842608737330865-033116-8f57e1ea515ebc0285382fe00fbfc45b-1749491277');
           $client = new PreferenceClient();
           $preference = $client->create([
               "items" => [
@@ -12,16 +12,17 @@
                   "id" => "DEP-0001",
                   "title" => "Ticket",
                   "quantity" => 1,
-                  "unit_price" => 500
+                  "unit_price" => 1000
                 ],
               ],
               
               "statement_descriptor" => "Lucky Apuestas",
-              "external_reference" => "CDP001"
+              "external_reference" => "CDP001",
+              "notification_url" => "https://luckyapuestas.lovestoblog.com/src/php/webhooks/mercadoPay.php"
             ]);
           $preference->back_urls = array(
-              "success" => "http://localhost/recibo.php?id=1",
-              "failure" => "http://localhost/recibo.php?id=0", 
-              "pending" => "http://localhost:8080/recibo.php?id=2"
+              "success" => "http://localhost/recibo.php?pay=1",
+              "failure" => "http://localhost/recibo.php?pay=0", 
+              "pending" => "http://localhost/recibo.php?pay=2"
           );
 ?>

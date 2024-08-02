@@ -5,6 +5,7 @@
     <?php require 'src/estructura/head.php'; ?>
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/lottery.css">
+    <link rel="stylesheet" href="src/css/carrusel.css">
 </head>
 <body>
     <header>
@@ -167,6 +168,9 @@
                                 <div id="result">
                                     <input type="text" name="numLottery" id="numLottery" disabled>
                                 </div>
+                                <div class="aviso">
+                                    <strong>CON ESTE NÚMERO PODRÍAS GANAR HASTA $2.000.000</strong>  
+                                </div>
                             </div>
                         </div>
                         <hr>
@@ -182,23 +186,24 @@
                     </form>  
                     </div>
                 </div>
+                </div>  
             </div>
+            <div class="col">
+            <div class="banner">
+                <img src="src/public/IMG/banner1.png" alt="Banner de la Página">
             </div>
-            <div id="wallet_container"></div>
-            <!-- <div class="col">
-                <div class="box">
-                    asdfasdsa
-                </div>
-            </div> -->
-        </div>
+
+            </div>
     </main>
     <footer>
        <?php include 'src/estructura/footer.php' ?>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="src/js/country.js"></script>
     <script src="src/js/index.js"></script>
     <script src="src/js/random.js"></script>
     <script src="src/js/lottery.js"></script>
-
+    <script src="src/js/carrusel.js"></script>
+    <script src="src/js/controller/bill.js"></script>
 </body>
 </html>

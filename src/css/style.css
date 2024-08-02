@@ -25,9 +25,9 @@ a:hover {
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
+    justify-content: space-around;
 }
 .btn {
     background-color: #388C1A;
@@ -38,11 +38,25 @@ a:hover {
     border: none;
     cursor: pointer;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.btn:hover {
+   background-color: #296413; 
+}
+.btn > a:hover {
+    color: white
 }
 main {
-    width: 100%;
-    height: 100%;
-    
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+main > .row {
+    align-items: flex-start;
+    gap: 2rem;
 }
 hr {
     width: 100%;
@@ -52,6 +66,21 @@ hr {
 }
 .iconSVG {
     width: 50px;
+}
+.banner > img{
+    border-radius: 5px;
+}
+.aviso {
+    background-color: #FFD700;
+    color: #000; 
+    border: 2px solid #DAA520;
+    border-radius: 5px; 
+    padding: 0.8rem;
+    font-size: 16px;
+    text-align: center;
+    width: fit-content; 
+    margin: 1rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 /* NAVBAR CSS */
 
@@ -75,8 +104,6 @@ hr {
 .box {
    background: #434343;
    border-radius: 10px;
-   padding-left: 2rem;
-   padding-right: 2rem;
    margin-bottom: 2rem;
 }
 
@@ -107,7 +134,7 @@ footer {
         height: 1.5rem;
         width: fit-content;
     }
-    input[type=numbes]::selection {
+    input[type=number]::selection {
         border: 1px solid white;
     }
     input[type=number]::placeholder {
@@ -116,10 +143,6 @@ footer {
     select, button {
         padding: 10px;
         margin: 10px;
-    }
-    .btn {
-        display: flex;
-        align-items: center;
     }
     button:hover {
         background-color: #296413;

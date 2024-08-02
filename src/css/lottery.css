@@ -31,8 +31,9 @@ input[type="text"]#random-number {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    /* flex-wrap: wrap; */
     max-width: 580px;
+    height: 450px;
+    overflow-x: scroll;
     gap: 0.5rem;
     justify-content: center;
 }
@@ -46,7 +47,7 @@ input[type="text"]#random-number {
     border-radius: 5px;
     padding: 10px;
     transition: border-color 0.3s, background-color 0.3s;
-    width: 70%;
+    width: 80%;
     text-align: center;
 }
 
@@ -62,16 +63,17 @@ input[type="text"]#random-number {
 .lottery-form {
     display: flex;
     flex-direction: column;
-    width: 45px;
-    height: 45px;
+    height: 50%;
+    overflow: scroll;
+    
 }
 .align-center {
     display: flex;
     align-items: center;
 }
 .lottery-logo {
-    width: 65px;
-    height: 65px;
+    width: 100px;
+    height: 70px;
     border-radius: 2px;
 }
 
