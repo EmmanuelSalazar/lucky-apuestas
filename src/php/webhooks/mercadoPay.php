@@ -36,6 +36,7 @@ if (isset($data['type']) && $data['type'] == 'payment') {
             'fecha'       => $payment->date_created,
             'modo'        => $payment->live_mode,
         ];
+        $
 
 
         // Convierte los datos a una cadena JSON

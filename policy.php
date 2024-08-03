@@ -28,7 +28,7 @@
         Además, podemos recopilar los datos personales que usted nos proporciona (incluidos, entre otros, 
         nombre, apellido, dirección, información de pago, etc.) durante el registro para poder cumplir
         con el acuerdo. Al enviar un mensaje, suscribirse, agendarse o similar, 
-        está autorizando a ARTUJURIDICA, de manera libre, expresa, inequívoca, informada, voluntaria,
+        está autorizando a LUCKY APUESTAS, de manera libre, expresa, inequívoca, informada, voluntaria,
         al igual que a las personas naturales o jurídicas que ella autorice, a realizar el tratamiento de 
         sus datos personales, tales como la recolección, almacenamiento, uso, transmisión, transferencia, 
         circulación o supresión de la información personal que comparte. En todo caso, usted declara que 
@@ -117,7 +117,7 @@
 
         <h1>Información de contacto:</h1>
         Los datos suministrados serán almacenados
-        de manera segura en las bases de datos de ARTUJURIDICA. 
+        de manera segura en las bases de datos de LUCKY APUESTAS. 
         En caso de requerir consulta, ejercer los derechos anteriormente mencionados,
         realizar algún cambio a los datos consignados o solicitar que se supriman sus datos de las
         bases de datos, o si desea contactarnos para comprender más sobre esta Política o desea contactarnos 

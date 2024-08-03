@@ -3,7 +3,7 @@
 <head>
     <?php include 'src/estructura/head.php'; ?>
     <title>Terminos y condiciones</title>
-    <link rel="stylesheet" href="src/css/terminos.css">
+    <link rel="stylesheet" href="src/css/policy.css">
 </head>
 <body>
   <header>

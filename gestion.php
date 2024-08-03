@@ -3,8 +3,7 @@
 <head>
     <?php include 'src/estructura/head.php'; ?>
     <title>Gestion de calidad</title>
-    <link rel="stylesheet" href="src/css/gestion.css">
-
+    <link rel="stylesheet" href="src/css/policy.css">
 </head>
 <body>
     <header>

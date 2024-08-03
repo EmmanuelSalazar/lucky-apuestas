@@ -1,4 +1,3 @@
-<?php require 'src/php/API/mercadoPay.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -130,7 +129,7 @@
                                         <input type="text" class="lottery-name" value="Cauca" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Antioqueñita 1">
-                                        <img src="src/public/IMG/ANTIOQUEÑITA 1..png" alt="Antioqueñita 1 Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/antioquenita1.png" alt="Antioqueñita 1 Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Antioqueñita 1" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="pijao de oro">
@@ -150,7 +149,7 @@
                                         <input type="text" class="lottery-name" value="dorado noche" readonly>
                                     </div>
                                     <div class="lottery" data-lottery="Antioqueñita 2">
-                                        <img src="src/public/IMG/antioqueñita 2.png" alt="Antioqueñita 2 Logo" class="lottery-logo">
+                                        <img src="src/public/IMG/antioquenita2.png" alt="Antioqueñita 2 Logo" class="lottery-logo">
                                         <input type="text" class="lottery-name" value="Antioqueñita 2" readonly>
                                     </div>
                                 </div>

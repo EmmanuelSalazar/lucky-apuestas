@@ -1,10 +1,14 @@
 <?php require 'src/php/API/mercadoPay.php';
+      require 'src/php/function/mercadoBill.php';
+
     error_reporting(0);
 ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<title>Recibo || Lucky Apuestas</title>
     <?php require 'src/estructura/head.php'; ?>
+   
     <script src="https://sdk.mercadopago.com/js/v2"></script>
 </head>
 <body>
@@ -14,7 +18,7 @@
     <main>
         <div class="col">
             <div class="box">
-                <?php switch ($pay) {
+                <?php switch ($_GET['pay']) {
                     case NULL: ?>
                          <h2>Continuar con el proceso de compra</h2>
                             <hr>
@@ -70,35 +74,49 @@
                            </div>
                            </div>
                      <?php  break;
-                     case 1: ?>
+                     case 1: 
+                        saveBill();
+                     ?>
                             <div class="col">
                             <h2>El pago se ha realizado con exito</h2>
                             <p>¡Que la <strong>fortuna</strong> te acompañe!</p>
                             <div class="btn"><a href="index.php">Volver al inicio</a></div>
                             </div>
                        <?php break;
-                        case 0: ?>
+                        case 0: 
+                        deleteBill();
+                        ?>
                             <div class="col">
                             <h2>Ha ocurrido un error al realizar el pago :(</h2>
                             <p>¡Que la <strong>fortuna</strong> te acompañe!</p>
                             <div class="btn"><a href="index.php">Volver a intentar</a></div>
                             </div>
-                    <?php default:
-                        # code...
+                    <?php    
+                    case 2: 
+                        saveBill();
+                     ?>
+                            <div class="col">
+                            <h2>Pago Pendiente</h2>
+                            <p>Cuando tu pago sea aprovado, activaremos tu ticket ;)</p>
+                            <div class="btn"><a href="index.php">Volver al inicio</a></div>
+                            </div>
+                       <?php break;
+                         default:
+                            echo '<h2>Ha ocurrido un</h2>';
                         break;
                 } ?>
             </div>
         </div>
     </main>
     <script>
-      const mp = new MercadoPago('TEST-81fd65a5-0dc0-484f-a09e-23238b683404', {
+      const mp = new MercadoPago('APP_USR-ed566ca6-e2a0-438b-b9f5-b17260edc632', {
         locale: 'es-CO'
       });
 
       mp.bricks().create("wallet", "wallet_container", {
         initialization: {
             preferenceId: "<?php echo $preference->id; ?>",
-            redirectMode: "modal"
+            redirectMode: "self"
         },
       });
   </script>
