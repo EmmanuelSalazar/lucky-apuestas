@@ -15,12 +15,16 @@
                 <div class="col">
                 <h2>Contacta con nosotros</h2> 
                     <div class="row">
-                    <img src="src/public/svg/mail.svg" alt="" class="iconSVG">
+                    <img src="src/public/svg/mail.svg" alt="ICON" class="iconSVG">
                     <h3>Admin@compra-seguro.store</h3>
                     </div>
                     <div class="row">
-                        <img src="src/public/svg/socialMediaContent/instagram.svg" alt="" class="iconSVG">
-                        <a href="instagram.com/lucky.apuestas"><h3>@Lucky.apuestas</h3></a>
+                        <img src="src/public/svg/socialMediaContent/instagram.svg" alt="ICON" class="iconSVG">
+                        <a href="instagram.com/lucky.apuestas" target="_blank"><h3>@Lucky.apuestas</h3></a>
+                    </div>
+                    <div class="row">
+                        <img src="src/public/svg/socialMediaContent/facebook.svg" alt="ICON" class="iconSVG">
+                        <a href="https://www.facebook.com/share/jnNxcysk9oddoXpb/?mibextid=qi2Omg" target="_blank"><h3>@Lucky.apuestas</h3></a>
                     </div>
                 </div>
             </div>
