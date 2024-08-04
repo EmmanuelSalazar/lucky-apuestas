@@ -9,7 +9,7 @@
                         $date = $_POST['date'];
                         $lottery = $_POST['lottery'];
                         $numLottery = $_POST['numLottery'];
-                        $userEmail = $_POST['userEmail'];
+                        $userEmail = mysqli_real_escape_string($mysqli, $_POST['userEmail']);
                         $query = "INSERT INTO ticket(datePlay, lotery, numLotery, userEmail) VALUE ('$date', '$lottery', '$numLottery', '$userEmail')";
                         $query = mysqli_query($mysqli, $query) or die(mysqli_error($mysqli));
                             if($query == true) {

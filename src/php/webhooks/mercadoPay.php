@@ -6,7 +6,7 @@ use MercadoPago\Client\Payment\PaymentClient;
 require_once '../../../vendor/autoload.php';
 
 // Importa la clase de Mercado Pago
-MercadoPagoConfig::setAccessToken("TEST-1842608737330865-033116-eb08df07ba5de636a918bdb3b65f7c02-1749491277");
+MercadoPagoConfig::setAccessToken("APP_USR-7883038378946096-073013-e455d88284c62d65207e3a392c20f177-1749491277");
 
 // Obtén el contenido de la notificación
 $notification = file_get_contents("php://input");

@@ -168,7 +168,7 @@
                                     <input type="text" name="numLottery" id="numLottery" disabled>
                                 </div>
                                 <div class="aviso">
-                                    <strong>CON ESTE NÚMERO PODRÍAS GANAR HASTA $2.000.000</strong>  
+                                    <strong>CON ESTE NÚMERO PODRÍAS GANAR HASTA $30'000.000</strong>  
                                 </div>
                             </div>
                         </div>

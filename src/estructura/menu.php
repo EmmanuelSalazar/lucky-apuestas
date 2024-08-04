@@ -11,7 +11,7 @@
             <div class="navList">
                 <ul>
                     <li><a href="foca.php">¿Quienes somos?</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li><a href="contact.php">Contacto</a></li>
                 </ul>
             </div>
         </nav>

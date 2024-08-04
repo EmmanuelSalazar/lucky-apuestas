@@ -109,7 +109,7 @@
         </div>
     </main>
     <script>
-      const mp = new MercadoPago('APP_USR-ed566ca6-e2a0-438b-b9f5-b17260edc632', {
+      const mp = new MercadoPago('APP_USR-adbf1054-cdc4-4130-b682-f33c4e2b2443', {
         locale: 'es-CO'
       });
 
