@@ -152,3 +152,50 @@ footer > div > a:hover {
         background-color: #296413;
     }
 /* ---------------- */
+
+
+/* MOBILE CSS */
+
+@media screen and (max-width: 580px) {
+    main {
+        padding: 0;
+    }
+    main > .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iconSVG {
+        width: 25px;
+    }
+    .banner > img{
+        width: 320px;
+    }
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .box {
+        width: 100%;
+    }
+    .nav {
+        padding: 0;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .contTable{
+        flex-wrap: wrap;
+    }
+    .aviso {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .banner {
+        display: flex;
+        justify-content: center;
+    }
+
+}

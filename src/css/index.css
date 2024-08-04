@@ -45,3 +45,12 @@ footer > .col > a > label:hover {
     color: black;
     text-align: center;
 }
+/* MODILE CSS */
+
+@media screen and (max-width: 580px) {
+    .contTable {
+        gap: 0;
+    }
+    
+}
+

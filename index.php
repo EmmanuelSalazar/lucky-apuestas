@@ -4,16 +4,15 @@
     <?php require 'src/estructura/head.php'; ?>
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/lottery.css">
-    <link rel="stylesheet" href="src/css/carrusel.css">
 </head>
 <body>
     <header>
         <?php include 'src/estructura/menu.php'; ?>
     </header>
-    <main>
+    <main id="main">
         <div class="row">
             <div class="col">
-                <div class="box row">
+                <div class="box">
                     <div class="col">
                         <form id="lottery-form" enctype="multipart/form-data">
                         <div class="contTable">
@@ -202,7 +201,7 @@
     <script src="src/js/index.js"></script>
     <script src="src/js/random.js"></script>
     <script src="src/js/lottery.js"></script>
-    <script src="src/js/carrusel.js"></script>
     <script src="src/js/controller/bill.js"></script>
+    <script src="src/js/reponsive.js"></script>
 </body>
 </html>
