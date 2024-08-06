@@ -17,20 +17,20 @@
                         <form id="lottery-form" enctype="multipart/form-data">
                         <div class="contTable">
                             <div class="col">
-                                <img src="src/public/svg/1number_1_3080.svg" alt="" class="iconSVG"> 
+                                <img src="src/public/svg/1number_1_3080.svg" alt="1" class="iconSVG"> 
                             </div>
                             <div class="col">
-                                    <div class="col">
+                                    <div class="col"> 
                                     <h3>Selecciona la fecha del Juego:</h3>
                                         <label for="date"></label>
-                                        <input type="date" id="date" name="date" min="2024-07-27" required>
+                                        <input type="date" id="date" name="date" min="<?php echo date("Y-m-d"); ?>" required>
                                     </div>                                 
                             </div>
                         </div>
                         <hr>
                         <div class="contTable">
                             <div class="col">
-                                <img src="src/public/svg/2number_2_3830.svg" alt="" class="iconSVG">
+                                <img src="src/public/svg/2number_2_3830.svg" alt="2" class="iconSVG">
                             </div>
                             <div class="col">
                                 <h3>Selecciona la lotería de la suerte:</h3>
@@ -157,7 +157,7 @@
                         <hr>
                         <div class="contTable">
                             <div class="col">
-                                <img src="src/public/svg/3number_3_3078.svg" alt="" class="iconSVG">
+                                <img src="src/public/svg/3number_3_3078.svg" alt="3" class="iconSVG">
                             </div>
                             <div class="col">
                                 <h3>Generar tu número de la suerte</h3>
@@ -174,7 +174,7 @@
                         <hr>
                         <div class="contTable">
                             <div class="col">
-                                <img src="src/public/svg/4number_4_3076.svg" alt="" class="iconSVG">
+                                <img src="src/public/svg/4number_4_3076.svg" alt="4" class="iconSVG">
                             </div>
                             <div class="col">
                                 <label for="email">Correo Electrónico:</label>

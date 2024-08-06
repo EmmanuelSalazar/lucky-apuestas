@@ -23,13 +23,13 @@
                             <hr>
                             <div class="row">
                             <div class="col">
-                            <img src="src/public/svg/1number_1_3080.svg" alt="" class="iconSVG">
+                            <img src="src/public/svg/1number_1_3080.svg" alt="1" class="iconSVG">
                             <hr>
-                            <img src="src/public/svg/2number_2_3830.svg" alt="" class="iconSVG">
+                            <img src="src/public/svg/2number_2_3830.svg" alt="2" class="iconSVG">
                             <hr>
-                            <img src="src/public/svg/3number_3_3078.svg" alt="" class="iconSVG">
+                            <img src="src/public/svg/3number_3_3078.svg" alt="3" class="iconSVG">
                             <hr>
-                            <img src="src/public/svg/4number_4_3076.svg" alt="" class="iconSVG">
+                            <img src="src/public/svg/4number_4_3076.svg" alt="4" class="iconSVG">
                             </div>
                             <div class="col">
                                 <p>Fecha de juego: <strong><?php echo $_GET['dateDir'] ?></strong></p>
@@ -45,36 +45,44 @@
                                 <div class="col">
                                 <div id="wallet_container"></div>
                                 <div class="row paymentMethods" id="paymentMethods">
-                                    <img src="src/public/IMG/pse_logo.png" alt="">
-                                    <img src="src/public/IMG/efecty_logo.png" alt="">
+                                    <img src="src/public/IMG/pse_logo.png" alt="PSE LOGO">
+                                    <img src="src/public/IMG/efecty_logo.png" alt="EFECTY LOGO">
                                 </div>
                                 </div>
                             </div>
                       <?php  break;
                       case "": ?>
                         <h2>Continuar con el proceso de compra</h2>
-                           <hr>
-                           <div class="row">
-                           <div class="col">
-                           <img src="src/public/svg/1number_1_3080.svg" alt="" class="iconSVG">
-                           <hr>
-                           <img src="src/public/svg/2number_2_3830.svg" alt="" class="iconSVG">
-                           <hr>
-                           <img src="src/public/svg/3number_3_3078.svg" alt="" class="iconSVG">
-                           <hr>
-                           <img src="src/public/svg/4number_4_3076.svg" alt="" class="iconSVG">
-                           </div>
-                           <div class="col">
-                               <p>Fecha de juego: <strong><?php echo $_GET['dateDir'] ?></strong></p>
-                               <hr>
-                               <p>Loteria seleccionada: <strong><?php echo $_GET['lotteryDir'] ?></strong></p>
-                               <hr>
-                               <p>Número de la suerte: <strong><?php echo $_GET['numDir'] ?></strong></p>
-                               <hr>
-                               <p>Email de contacto: <strong><?php echo $_GET['emailDir'] ?></strong></p>
-                               <div id="wallet_container"></div>
-                           </div>
-                           </div>
+                            <hr>
+                            <div class="row">
+                            <div class="col">
+                            <img src="src/public/svg/1number_1_3080.svg" alt="1" class="iconSVG">
+                            <hr>
+                            <img src="src/public/svg/2number_2_3830.svg" alt="2" class="iconSVG">
+                            <hr>
+                            <img src="src/public/svg/3number_3_3078.svg" alt="3" class="iconSVG">
+                            <hr>
+                            <img src="src/public/svg/4number_4_3076.svg" alt="4" class="iconSVG">
+                            </div>
+                            <div class="col">
+                                <p>Fecha de juego: <strong><?php echo $_GET['dateDir'] ?></strong></p>
+                                <hr>
+                                <p>Loteria seleccionada: <strong><?php echo $_GET['lotteryDir'] ?></strong></p>
+                                <hr>
+                                <p>Número de la suerte: <strong><?php echo $_GET['numDir'] ?></strong></p>
+                                <hr>
+                                <p>Email de contacto: <strong><?php echo $_GET['emailDir'] ?></strong></p>
+                            </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                <div id="wallet_container"></div>
+                                <div class="row paymentMethods" id="paymentMethods">
+                                    <img src="src/public/IMG/pse_logo.png" alt="PSE LOGO">
+                                    <img src="src/public/IMG/efecty_logo.png" alt="EFECTY LOGO">
+                                </div>
+                                </div>
+                            </div>
                      <?php  break;
                      case 1: 
                         saveBill();
@@ -85,7 +93,7 @@
                             <div class="btn"><a href="index.php">Volver al inicio</a></div>
                             </div>
                        <?php break;
-                        case 0: 
+                        case 3: 
                         deleteBill();
                         ?>
                             <div class="col">

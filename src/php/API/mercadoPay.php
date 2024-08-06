@@ -11,7 +11,7 @@
           $tickedId = $ticketId['ID'];
           $backUrls = [
             "success" => "https://compra-seguro.store/recibo.php?pay=1&ticketID=".$tickedId."",
-            "failure" => "https://compra-seguro.store/recibo.php?pay=0&ticketID=".$tickedId."", 
+            "failure" => "https://compra-seguro.store/recibo.php?pay=3&ticketID=".$tickedId."", 
             "pending" => "https://compra-seguro.store/recibo.php?pay=2&ticketID=".$tickedId.""
           ];
           $preference = $client->create([
