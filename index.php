@@ -190,7 +190,6 @@
             <div class="banner">
                 <img src="src/public/IMG/banner1.png" alt="Banner de la Página">
             </div>
-
             </div>
     </main>
     <footer>

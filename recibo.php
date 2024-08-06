@@ -8,7 +8,6 @@
 <head>
 <title>Recibo || Lucky Apuestas</title>
     <?php require 'src/estructura/head.php'; ?>
-   
     <script src="https://sdk.mercadopago.com/js/v2"></script>
 </head>
 <body>
@@ -41,9 +40,15 @@
                                 <hr>
                                 <p>Email de contacto: <strong><?php echo $_GET['emailDir'] ?></strong></p>
                             </div>
-                            <div class="col">
-                            <div id="wallet_container"></div>
                             </div>
+                            <div class="row">
+                                <div class="col">
+                                <div id="wallet_container"></div>
+                                <div class="row paymentMethods" id="paymentMethods">
+                                    <img src="src/public/IMG/pse_logo.png" alt="">
+                                    <img src="src/public/IMG/efecty_logo.png" alt="">
+                                </div>
+                                </div>
                             </div>
                       <?php  break;
                       case "": ?>
@@ -67,10 +72,7 @@
                                <p>Número de la suerte: <strong><?php echo $_GET['numDir'] ?></strong></p>
                                <hr>
                                <p>Email de contacto: <strong><?php echo $_GET['emailDir'] ?></strong></p>
-                           </div>
-                           <div class="row">
-                           <h5>Pagar</h5>
-                           <div id="wallet_container"></div>
+                               <div id="wallet_container"></div>
                            </div>
                            </div>
                      <?php  break;
@@ -108,6 +110,9 @@
             </div>
         </div>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="src/js/bill.js"></script>
+
     <script>
       const mp = new MercadoPago('APP_USR-adbf1054-cdc4-4130-b682-f33c4e2b2443', {
         locale: 'es-CO'
@@ -117,7 +122,7 @@
         initialization: {
             preferenceId: "<?php echo $preference->id; ?>",
             redirectMode: "self"
-        },
+        }
       });
   </script>
 </body>
